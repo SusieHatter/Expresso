@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hot-coffee-shop.png-64e10501486ed0a0d72049882b08d639.stex"
+path="res://.import/bobba-shop.png-af49367dc62bf07e4f80c79bdd585f36.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://hot-coffee-shop.png"
-dest_files=[ "res://.import/hot-coffee-shop.png-64e10501486ed0a0d72049882b08d639.stex" ]
+source_file="res://resources/bobba-shop.png"
+dest_files=[ "res://.import/bobba-shop.png-af49367dc62bf07e4f80c79bdd585f36.stex" ]
 
 [params]
 

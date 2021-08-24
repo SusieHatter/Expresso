@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/iced-coffee-shop.png-761a9f4e703098d8fba5962b6f99ef2d.stex"
+path="res://.import/drinks.png-9b483bf645e5e882a507773aecb542dd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://iced-coffee-shop.png"
-dest_files=[ "res://.import/iced-coffee-shop.png-761a9f4e703098d8fba5962b6f99ef2d.stex" ]
+source_file="res://resources/drinks.png"
+dest_files=[ "res://.import/drinks.png-9b483bf645e5e882a507773aecb542dd.stex" ]
 
 [params]
 

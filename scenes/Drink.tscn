@@ -1,0 +1,51 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://resources/drinks.png" type="Texture" id=1]
+[ext_resource path="res://scripts/Drink.gd" type="Script" id=2]
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray( 0, 0.968992, 1 )
+colors = PoolColorArray( 0.11978, 0.376675, 0.929199, 1, 1, 0.140625, 0.963913, 1, 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[sub_resource type="Curve" id=3]
+_data = [ Vector2( 0, 0.694351 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.248897 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=4]
+curve = SubResource( 3 )
+
+[sub_resource type="ParticlesMaterial" id=5]
+flag_disable_z = true
+spread = 180.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 10.49
+angular_velocity = 71.84
+orbit_velocity = -0.3
+orbit_velocity_random = 0.0
+damping = 2.0
+scale_curve = SubResource( 4 )
+color_ramp = SubResource( 2 )
+
+[sub_resource type="CircleShape2D" id=6]
+
+[node name="Drink" type="Area2D"]
+position = Vector2( 1, 0 )
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 4
+
+[node name="Particles2D" type="Particles2D" parent="."]
+visible = false
+amount = 322
+lifetime = 3.7
+speed_scale = 2.3
+randomness = 0.25
+process_material = SubResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 6 )

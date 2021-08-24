@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/matcha-shop.png-3f38656bd6f9d6c80abfbe3e55c2482d.stex"
+path="res://.import/Meg.png-2c6510b214b95f22fef7a5d4ba252687.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://matcha-shop.png"
-dest_files=[ "res://.import/matcha-shop.png-3f38656bd6f9d6c80abfbe3e55c2482d.stex" ]
+source_file="res://resources/Meg.png"
+dest_files=[ "res://.import/Meg.png-2c6510b214b95f22fef7a5d4ba252687.stex" ]
 
 [params]
 

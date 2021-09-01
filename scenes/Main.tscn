@@ -353,12 +353,13 @@ position = Vector2( 11.8113, 12.6629 )
 id = 10
 
 [node name="Drink3" parent="IcedCoffee" instance=ExtResource( 1 )]
-position = Vector2( 21.486, 12.5449 )
+position = Vector2( 23.2679, 12.5449 )
 gravity_point = true
 id = 13
 
 [node name="BobaShop" type="Sprite" parent="."]
-position = Vector2( 360, 96 )
+position = Vector2( 357.773, 98.6727 )
+scale = Vector2( 0.944319, 0.916478 )
 texture = ExtResource( 7 )
 
 [node name="Drink" parent="BobaShop" instance=ExtResource( 1 )]
